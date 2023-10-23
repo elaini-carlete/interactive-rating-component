@@ -1,0 +1,55 @@
+@media(max-width: 576px){
+    .card, .thank-you{
+        height: 335px;
+        width: 316px;
+        border-radius: 15px;
+    }
+    
+    .card .title{
+        margin: 16px 0 7px 0;
+        font-size: 20px;
+    }
+    
+    .card .paragraph{
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .card .btn-numbers{
+        gap: 15px;
+    }
+    
+    .card .btn-numbers .btn-number{
+        width: 40px;
+        height: 40px;
+    }
+
+    .card .btn-submit{
+        margin-top: 20px;
+    }
+    
+    .card .btn-submit .btn-send{
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    .thank-you img{
+        width: 140px;
+        margin: 10px 0 25px 0;
+    }
+    
+    .thank-you span{
+        padding: 5px 15px;
+    }
+    
+    .thank-you h3{
+        margin: 25px 0 8px 0;
+        font-size: 23px;
+    }
+    
+    .thank-you p{
+        width: 280px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

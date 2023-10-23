@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <title>Interactive Rating Component</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/variable.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="card">
+        <img class="icon-star" src="src/images/icon-star.svg" alt="Image star">
+        <h1 class="title">How did we do?</h1>
+        <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <div class="btn-numbers">
+            <button class="btn-number">1</button>
+            <button class="btn-number">2</button>
+            <button class="btn-number">3</button>
+            <button class="btn-number">4</button>
+            <button class="btn-number">5</button>
+        </div>
+        <form class="btn-submit">
+            <button class="btn-send" type="submit">Submit</button>
+        </form>
+    </main>
+    <section class="thank-you active">
+        <img src="src/images/illustration-thank-you.svg" alt="Illustration Thank You">
+        <span id="selection">You selected 4 out of 5</span>
+        <h3>Thank you!</h3>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don`t hesitate to get in touch!</p>
+    </section>
+
+    <script type="module" src="src/js/index.js"></script>
+</body>
+</html>

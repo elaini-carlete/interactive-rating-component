@@ -1,0 +1,8 @@
+:root{
+    --color-background: hsl(216, 12%, 8%);
+    --color-card: hsl(213, 19%, 18%);
+    --color-background-items: hsl(212, 16%, 21%);
+    --color-number: hsl(216, 12%, 54%);
+    --color-hover-and-paragraph: hsl(217, 12%, 63%);
+    --color-click-and-span: hsl(25, 97%, 53%);
+}
